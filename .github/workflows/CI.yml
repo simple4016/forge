@@ -22,6 +22,7 @@ jobs:
           version: nightly
 
       - name: Run lint check
+        run: npm run prettier
         run: npm run lint:check
 
 
