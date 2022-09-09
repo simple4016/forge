@@ -24,8 +24,7 @@ jobs:
       - name: Run lint check
         run: npm run lint:check
 
-      - name: slither-action
-        uses: crytic/slither-action@v0.1.1
+
 
       - name: Run tests
         run: forge test
